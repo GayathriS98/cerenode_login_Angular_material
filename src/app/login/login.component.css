@@ -1,0 +1,33 @@
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    height: 320px;
+    width:300px;}
+#id{
+    background-color: white;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+}
+#email,#password{
+    width: 300px;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#or,#b2,#b3{
+    margin-top: 10px;
+}
+#cardTile{
+    align-content: center;
+}

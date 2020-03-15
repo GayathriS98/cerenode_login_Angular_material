@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">Welcome {{name}}
+    <button id="dashboardButton" routerLink="dashboard" mat-raised-button>dashboard</button>
+</mat-toolbar>
+<div id="cards">
+<mat-card id="posts" *ngFor="let posts of userPost;let i=index">
+    <mat-card-title>POST {{i+1}}</mat-card-title>
+    <img  id="image" mat-card-image src={{posts}}>
+    <!-- <mat-card-footer>{{caption [i]}}</mat-card-footer> -->
+</mat-card>
+</div>

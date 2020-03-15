@@ -1,0 +1,17 @@
+#dashboardButton{
+    margin-left: 1000px;
+}
+#posts{
+    
+    height: 400px;
+    width: 500px;
+    margin: 50px 50px 50px 50px ;
+    
+}
+#cards{
+    margin: 0 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
